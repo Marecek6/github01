@@ -32,6 +32,10 @@ namespace github01
             int soucin = 0;
             soucin = a * b;
             MessageBox.Show("soucin je " + soucin);
+
+            int podil = 0;
+            podil = a / b;
+            MessageBox.Show("podil je " + podil);
         }
     }
 }
