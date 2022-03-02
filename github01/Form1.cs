@@ -24,6 +24,10 @@ namespace github01
             int b = int.Parse(textBox2.Text);
             soucet = a + b;
             MessageBox.Show("soucet je " + soucet);
+
+            int rozdil = 0;
+            rozdil = a - b;
+            MessageBox.Show("rozdil je " + rozdil);
         }
     }
 }
