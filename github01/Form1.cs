@@ -28,6 +28,10 @@ namespace github01
             int rozdil = 0;
             rozdil = a - b;
             MessageBox.Show("rozdil je " + rozdil);
+
+            int soucin = 0;
+            soucin = a * b;
+            MessageBox.Show("soucin je " + soucin);
         }
     }
 }
